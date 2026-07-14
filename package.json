@@ -46,7 +46,13 @@
   },
   "dependencies": {
     "@log4js-node/log4js-api": "^1.0.2",
-    "node-fetch": "^2.3.0",
+    "node-fetch": ">=2.7.0",
     "underscore": "^1.8.3"
+  },
+  "overrides": {
+    "node-fetch": ">=2.7.0"
+  },
+  "resolutions": {
+    "node-fetch": ">=2.7.0"
   }
 }
